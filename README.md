@@ -7,7 +7,7 @@ This is a web template for VPN - Landing Page it's not an official website it's 
 
 # [Live Demo](https://hassan-ghorab.github.io/HTML_and_CSS_First_Template/)
 
-### Figma Desgin preview:
+### Figma Design preview:
 [Figma Desgin](https://www.figma.com/community/file/858999227165747995)
 
 ### Technologies:
@@ -19,7 +19,7 @@ This is a web template for VPN - Landing Page it's not an official website it's 
 - Javascript events
 
 ### Features:
-It's a Landing Page to show the service of a VPN and you can subscrib in everything throw it.
+It's a Landing Page to show the service of a VPN and you can subscribe to everything throw it.
 
 
 
