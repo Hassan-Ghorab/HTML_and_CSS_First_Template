@@ -81,13 +81,20 @@
   }
 
   .nav-box-container {
-    padding: 2rem 0 2rem;
+    padding: 2rem;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-menu {
+    display: block;
   }
 
   .btn-mobile-nav {
     display: block;
-    z-index: 99;
+    z-index: 15;
   }
 
   .nav-box {
@@ -100,14 +107,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    /* transform: translateX(100%); */
+    width: 100dvw;
+    height: 100dvh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    transition: all 0.5s ease-in;
+    transition: all 0.5s;
 
     /* 1- Hide it visually */
     opacity: 0;
@@ -117,24 +123,6 @@
 
     /* 3- Hide it from screen readers */
     visibility: hidden;
-  }
-
-  .open-nav .main-nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    transform: translateX(0);
-    transition: all 0.5s ease-in;
-  }
-
-  .open-nav .nav-icon[name="close"] {
-    display: block;
-    transition: all 0.5s ease-in;
-  }
-
-  .open-nav .nav-icon[name="burger"] {
-    display: none;
-    transition: all 0.5s ease-in;
   }
 
   .main-nav-links {
@@ -168,8 +156,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* text-align: center; */
     max-width: 60rem;
     margin-top: 5rem;
   }
@@ -220,11 +206,6 @@
     margin-bottom: 4rem;
   }
 
-  .pricing-cards {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    column-gap: 2rem;
-  }
-
   .pricing-card {
     padding: 8rem 6rem 3rem;
   }
@@ -250,10 +231,6 @@
     padding: 8rem 0 25rem;
   }
 
-  .global-companies-logos {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-
   .subscribe-info p {
     margin-bottom: 4rem;
   }
@@ -277,11 +254,6 @@
     max-width: 40rem;
     line-height: 1.5;
     color: var(--grey-dark-color);
-  }
-
-  .pricing-cards {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 1rem;
   }
 
   .pricing-card {
