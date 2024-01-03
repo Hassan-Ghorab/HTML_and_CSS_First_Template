@@ -213,14 +213,6 @@
   .pricing-card:last-child {
     grid-column: 1 / -1;
   }
-
-  .company-img:last-child {
-    grid-column: 1 / -1;
-  }
-
-  .testimonials-card:last-child {
-    grid-column: 1 / -1;
-  }
 }
 
 /***************************/
